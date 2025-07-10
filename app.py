@@ -64,7 +64,7 @@ st.markdown("""
 
 class TopicGenerator:
     def __init__(self, model_name="llama-3.3-70b-versatile"):
-        self.client = Groq(api_key="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")
+        self.client = Groq(api_key="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")
         self.model_name = model_name
     
     def generate(self, review_text):
